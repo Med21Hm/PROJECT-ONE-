@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Work+Sans:ital,wght@0,800;1,100&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>ProjectOne</title>
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="/eduford_img/logo.png" alt=""></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa-solid fa-xmark icon "  onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="./index.html">Home</a></li>
+                    <li><a href="./about.html">About</a></li>
+                    <li><a href="./course.html">Course</a></li>
+                    <li><a href="./blog.html">Blogs</a></li>
+                    <li><a href="./contactUs.html">Contact</a></li>
+                </ul>
+            </div>
+            <i class="fa-solid fa-bars icon " onclick=" showMenu() "></i>
+        </nav>
+        <div class="text-box">
+            <h1>our courses  </h1>
+        </div>
+    </section>
+     <!-- -----course------- -->
+     <section class="course">
+        <h1> course we offer </h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        <div class="row">
+            <div class="course-col">
+                <h3>Intermediate</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus minus optio ipsa enim illum 
+                    veritatis nulla doloribus? Maxime placeat dignissimos accusamus dolor necessitatibus nesciunt
+                     a possimus, nemo consequuntur magni non?
+                </p>
+            </div>
+            <div class="course-col">
+                <h3>degree</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus minus optio ipsa enim illum 
+                    veritatis nulla doloribus? Maxime placeat dignissimos accusamus dolor necessitatibus nesciunt
+                     a possimus, nemo consequuntur magni non?
+                </p>
+            </div>
+            <div class="course-col">
+                <h3>post Gradutio </h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus minus optio ipsa enim illum 
+                    veritatis nulla doloribus? Maxime placeat dignissimos accusamus dolor necessitatibus nesciunt
+                     a possimus, nemo consequuntur magni non?
+                </p>
+            </div>
+        </div>
+    </section>
+     <!-- ----- start facilities ------ -->
+     <section class="facilities">
+        
+        <h1> course we offer </h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        <div class="row">
+            <div class="facilities-col">
+                <img src="./eduford_img/library.png" alt="">
+                <h3>world class libarary </h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus minus optio ipsa enim illum 
+                    veritatis nulla doloribus?
+                </p>
+            </div>
+            <div class="facilities-col">
+                <img src="./eduford_img/basketball.png" alt="">
+                <h3>world class libarary </h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus minus optio ipsa enim illum 
+                    veritatis nulla doloribus?
+                </p>
+            </div>
+            <div class="facilities-col">
+                <img src="./eduford_img/cafeteria.png" alt="">
+                <h3>tasty and healty food  </h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus minus optio ipsa enim illum 
+                    veritatis nulla doloribus?
+                </p>
+            </div>
+            
+        </div>
+    </section>s
+   
+
+
+    <footer >
+        <h4>about us</h4>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus minus optio ipsa enim illum 
+            veritatis nulla doloribus?
+        </p>
+        <div class="social">
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-linkedin"></i>
+            <i class="fa-solid fa-envelope"></i>
+        </div>
+        <p>made with <i class="fa-solid fa-copyright"></i> easy tutorial </p>
+
+    </footer>
+
+
+
+
+
+
+
+    <script>
+        var navLink = document.getElementById("navLinks") ;
+        function showMenu() {
+            navLink.style.top = '0';
+        };
+        function hideMenu() {
+            navLink.style.top = "-1000px";
+        };
+
+            </script>
+</body>
+</html>
